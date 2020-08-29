@@ -1,0 +1,305 @@
+
+::before::after{ box-sizing: border-box;}
+
+
+body{
+    
+
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.container{
+
+    width: 850px;
+    height: 100%;
+    
+    padding: 1em;
+    margin: 0 auto;
+    position: relative;
+   
+
+}
+
+
+
+
+
+.cajon1{
+    width: 850px;
+    height: 350px;
+    background:rgb(17, 16, 16);
+   
+    background:url(../img/1.png);
+    background-size: cover;
+    position: relative;
+}
+
+
+h2{
+
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    
+    display: inline-block;
+    padding: 2px;
+    margin: 20px;
+    display: inline-block;
+    position: relative;
+    left: 2em;
+    top: 0em;
+}
+
+.boton1{
+    width: 150px;
+    height: 30px;
+    
+    left: 9em;
+    top: 15em;
+    background-color: rgb(34, 34, 34);
+    color: cornsilk;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    box-sizing: content-box;
+    padding: 2px;
+    margin: 5px;
+
+}
+:hover.boton1{
+    background-color: rgb(59, 59, 59);
+    
+    transition: all .5s;
+}
+
+
+
+.cajon2{
+    width: 850px;
+    height: 1000px;
+    background:rgb(17, 16, 16);
+   
+    background:url(../img/2.png);
+    background-size: cover;
+}
+
+
+
+nav{
+    
+    width: 50%;
+    height: 50px;
+    left: 26em;
+    position: relative;
+    
+    
+
+
+
+}
+
+ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+li{
+
+    list-style: none;
+}
+
+a{
+    font-size: 12px;
+    text-decoration:none;
+    color: rgb(253, 253, 253);
+    font-family: 'Roboto', sans-serif;
+}
+a:hover{
+
+color: dimgray;
+
+}
+
+
+
+
+
+
+/*aqui empiza cajon 2 con grid*/
+.item1 { grid-area: header;   }
+
+.item2 { grid-area: menu; background:url(../img/item\ 02.jpg);background-size: cover; }
+.item3 { grid-area: main; background:url(../img/1.png);background-size: cover;}
+
+
+
+.item5 { grid-area: footer; background:url(../img/laptop.png); background-size: cover; }
+
+.grid-container {
+    height: 400px;
+    width: 600px;
+
+    position: relative;
+    display: grid;
+    margin:0 auto;
+    bottom: -28em;
+    
+
+
+  grid-template-areas:
+  
+    'header  header header header header header '
+    
+    'menu main main main main main'
+    
+    'menu   main main main main main'
+
+    'menu footer footer footer footer footer';
+
+
+  grid-gap: 10px;
+ 
+ 
+  
+  
+}
+
+.grid-container > div {
+  background-color: rgba(61, 61, 61, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+/*aqui titulos*/
+
+.subtitle{
+
+    color: cornsilk;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    line-height: -5pt;
+    display: inline-block;
+    padding: 2px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    letter-spacing: 8px;
+    
+    
+    
+    
+}
+.subtitle+h3{
+
+    color: rgb(139, 113, 9);
+    font-size: 30
+    5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+    
+    text-align: center;
+    display: inline-block;
+    padding: 2px;
+
+
+}
+
+
+
+.new{
+
+    color: cornsilk;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    
+  
+    padding-top: 50px;
+    
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0px auto;
+    
+    
+    
+    
+    
+}
+.new + p{
+
+    color: rgb(139, 113, 9);
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+    
+    text-align: center;
+    
+    padding: 2px;
+    text-align: center;
+    box-sizing: border-box;
+
+
+}
+
+/*aqui titulos*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cajon3{
+    width: 850px;
+    height: 270px;
+    background:rgb(17, 16, 16);
+   
+    background:url(../img/4.png);
+    background-size: cover;
+}
+
+.cajon4{
+    width: 850px;
+    height: 740px;
+    background:rgb(17, 16, 16);
+   
+    background:url(../img/5.png);
+    background-size: cover;
+}
+
